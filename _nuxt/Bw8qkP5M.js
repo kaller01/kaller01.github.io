@@ -1,0 +1,1 @@
+import{d as a}from"./gJaYJJEb.js";const e=t=>new Date(t.date).toLocaleDateString("en-SE",{month:"long"}),i=t=>a(new Date(t.date)),g=t=>t.description||t.location&&`Photograph ${t.filename} was photographed in ${t.location.title} with a ${t.lens} during ${e(t)}.`||`Photograph ${t.filename} was photographed during ${e(t)} with a ${t.lens}.`;export{e as a,g as b,i as g};
